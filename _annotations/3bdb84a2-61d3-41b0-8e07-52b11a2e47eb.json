@@ -1,0 +1,34 @@
+---
+canvas: "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj1.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Divan",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2021-09-09T16:47:59.633Z",
+            "modified": "2021-09-09T16:48:00.095Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj1.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1531.59375,1052.5223388671875,137.272705078125,157.272705078125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/obj1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3bdb84a2-61d3-41b0-8e07-52b11a2e47eb.json"
+}

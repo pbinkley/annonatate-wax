@@ -1,0 +1,34 @@
+---
+canvas: "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj12_00.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "White horse with saddle",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2021-09-09T20:00:12.947Z",
+            "modified": "2021-09-09T20:00:16.195Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj12_00.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:2127.142333984375,2776.035400390625,2670.087158203125,2309.008056640625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/obj12/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "05d24ba4-acd0-4168-a038-5d16952f9355.json"
+}

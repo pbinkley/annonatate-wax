@@ -1,0 +1,34 @@
+---
+canvas: "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj10.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Hands 8\n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2021-09-23T15:34:24.609Z",
+            "modified": "2021-09-23T15:34:26.088Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj10.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1311.35009765625,2097.0439453125,502.0126953125,791.05029296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/obj10/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5ec604d4-bdb4-42b0-88ba-ad04977f0756.json"
+}

@@ -9,42 +9,49 @@ layout: none
   "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj10/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj10/full/full/0/default.jpg",
   "sequences": [
     {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/obj10.json",
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@type": "sc:Canvas",
           "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj10.json",
+          "@type": "sc:Canvas",
           "label": "front",
-          "width": 2501,
-          "height": 4331,
           "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj10/full/250,/0/default.jpg",
+          "height": 4331,
+          "width": 2501,
           "images": [
             {
-              "@type": "oa:Annotation",
               "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj10.json",
+              "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj10/full/full/0/default.jpg",
-                "@type": "dcterms:Image",
+                "@type": "dctypes:Image",
                 "format": "image/jpeg",
+                "height": 4331,
+                "width": 2501,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj10",
                   "profile": "http://iiif.io/api/image/2/level0.json"
-                },
-                "width": 2501,
-                "height": 4331
+                }
               },
               "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj10.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/obj10-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         }
       ]
     }
   ],
-  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj10/full/full/0/default.jpg",
   "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj10/full/1140,/0/default.jpg"
 }

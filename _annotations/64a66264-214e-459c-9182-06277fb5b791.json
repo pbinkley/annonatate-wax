@@ -22,7 +22,7 @@ order: 5
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=339.1601257324219,381.9931945800781,55.853851318359375,1116.5153503417969"
+            "value": "xywh=339.1601257324219,381.9931945800781,41.430084228515625,1135.2239685058594"
         },
         "dcterms:isPartOf": {
             "id": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/z1039/manifest.json",

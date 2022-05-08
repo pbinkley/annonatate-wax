@@ -1,0 +1,35 @@
+---
+canvas: "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/canvas/z1039.json"
+order: 37
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "5474501",
+            "purpose": "describing",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2022-05-08T02:32:29.624Z",
+            "modified": "2022-05-08T02:32:32.871Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/canvas/z1039.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3704.852294921875,386.6444396972656,143.976318359375,1086.1643981933594"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/z1039/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "730a99fe-1092-45d5-867e-1655fdb31328.json",
+    "motivation": "commenting"
+}

@@ -1,34 +1,34 @@
 ---
-canvas: "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/canvas/z1039.json"
+canvas: https://pbinkley.github.io/shelfviz/img/derivatives/iiif/canvas/z1039.json
 order: 4
 ---
 {
-    "type": "Annotation",
-    "body": [
-        {
-            "type": "TextualBody",
-            "value": "3042008",
-            "purpose": "commenting",
-            "creator": {
-                "id": "pbinkley",
-                "name": "Peter Binkley"
-            },
-            "created": "2022-05-08T01:36:13.973Z"
-        }
-    ],
-    "target": {
-        "source": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/canvas/z1039.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=274.92559814453125,420.6268005371094,48.532470703125,1084.6432189941406"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/z1039/manifest.json",
-            "type": "Manifest"
-        }
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "3042008",
+      "purpose": "commenting",
+      "creator": {
+        "id": "pbinkley",
+        "name": "Peter Binkley"
+      },
+      "created": "2022-05-08T01:36:13.973Z"
+    }
+  ],
+  "target": {
+    "source": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/canvas/z1039.json",
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=262,421,62,1067"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9d21efe1-3d89-4668-9296-0d903cbe79c0.json",
-    "motivation": "commenting"
+    "dcterms:isPartOf": {
+      "id": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/z1039/manifest.json",
+      "type": "Manifest"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "9d21efe1-3d89-4668-9296-0d903cbe79c0.json",
+  "motivation": "commenting"
 }

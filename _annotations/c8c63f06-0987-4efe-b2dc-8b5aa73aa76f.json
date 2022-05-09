@@ -1,35 +1,35 @@
 ---
-canvas: "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/canvas/z1039.json"
+canvas: https://pbinkley.github.io/shelfviz/img/derivatives/iiif/canvas/z1039.json
 order: 28
 ---
 {
-    "type": "Annotation",
-    "body": [
-        {
-            "type": "TextualBody",
-            "value": "3532684",
-            "purpose": "describing",
-            "creator": {
-                "id": "pbinkley",
-                "name": "Peter Binkley"
-            },
-            "created": "2022-05-08T02:23:50.629Z",
-            "modified": "2022-05-08T02:23:53.807Z"
-        }
-    ],
-    "target": {
-        "source": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/canvas/z1039.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2552.304443359375,417.0018615722656,45.198486328125,1064.7282409667969"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/z1039/manifest.json",
-            "type": "Manifest"
-        }
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "3532684",
+      "purpose": "describing",
+      "creator": {
+        "id": "pbinkley",
+        "name": "Peter Binkley"
+      },
+      "created": "2022-05-08T02:23:50.629Z",
+      "modified": "2022-05-08T02:23:53.807Z"
+    }
+  ],
+  "target": {
+    "source": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/canvas/z1039.json",
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=2547,417,50,1071"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c8c63f06-0987-4efe-b2dc-8b5aa73aa76f.json",
-    "motivation": "commenting"
+    "dcterms:isPartOf": {
+      "id": "https://pbinkley.github.io/shelfviz/img/derivatives/iiif/z1039/manifest.json",
+      "type": "Manifest"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "c8c63f06-0987-4efe-b2dc-8b5aa73aa76f.json",
+  "motivation": "commenting"
 }

@@ -1,0 +1,42 @@
+---
+canvas: "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj8.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.15258784592152,
+                    48.074286419853586
+                ]
+            },
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2022-06-21T16:43:07.120Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj8.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"807.345458984375,2271.90380859375 1586.836669921875,2607.59716796875 1386.2051237206158,3073.470330285256 606.7139127831157,2737.776970910256\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/obj8/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "577a52a8-8866-4008-adc2-81334d0823de.json",
+    "motivation": "commenting"
+}

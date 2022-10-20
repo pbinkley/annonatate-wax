@@ -1,0 +1,30 @@
+---
+canvas: "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/images/obj1/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Small building",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2022-10-20T01:19:24.616Z",
+            "modified": "2022-10-20T01:19:26.317Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/images/obj1/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"1614.2158203125\" cy=\"641.8199157714844\" r=\"91.47680733049258\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "dd1c01a4-9268-43f6-84e3-09bc23363799.json",
+    "motivation": "commenting"
+}

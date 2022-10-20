@@ -1,0 +1,30 @@
+---
+canvas: "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/images/obj1/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "What kind of tree is this?",
+            "purpose": "questioning",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2022-10-20T01:19:53.853Z",
+            "modified": "2022-10-20T01:20:06.039Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/images/obj1/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"947.9286499023438\" cy=\"1339.0548706054688\" r=\"92.68251943265066\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6cd93af6-1541-4fc8-82cc-bc93fd4c3a23.json",
+    "motivation": "commenting"
+}

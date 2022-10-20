@@ -1,0 +1,31 @@
+---
+canvas: "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/images/obj1/info.json"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Chair",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2022-10-20T21:08:19.328Z",
+            "modified": "2022-10-20T21:08:19.775Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/images/obj1/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1538.8560791015625,1053.5562744140625,126.3636474609375,166.363525390625"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "157aea85-b157-465e-9123-bd198a9fea94.json",
+    "motivation": "commenting"
+}

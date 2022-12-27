@@ -1,0 +1,35 @@
+---
+canvas: "https://permalinkbnd.bnportugal.gov.pt/iiif/69702/canvas/81"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Paragraph 1",
+            "purpose": "bookmarking",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2022-12-27T03:15:24.578Z",
+            "modified": "2022-12-27T03:15:50.963Z"
+        }
+    ],
+    "target": {
+        "source": "https://permalinkbnd.bnportugal.gov.pt/iiif/69702/canvas/81",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=251.43515014648438,2921.5078125,58.18182373046875,53.636474609375"
+        },
+        "dcterms:isPartOf": {
+            "id": "http://127.0.0.1:4000/chapter-manifests/A.1.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c1e9148b-85fb-4806-986d-96746529da43.json",
+    "motivation": "commenting"
+}

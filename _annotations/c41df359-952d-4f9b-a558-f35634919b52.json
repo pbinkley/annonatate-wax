@@ -1,0 +1,35 @@
+---
+canvas: "https://www.e-rara.ch/bau_1/i3f/v20/5788453/canvas/13265218"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ex libris",
+            "purpose": "bookmarking",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2023-01-09T22:22:32.673Z",
+            "modified": "2023-01-09T22:22:38.976Z"
+        }
+    ],
+    "target": {
+        "source": "https://www.e-rara.ch/bau_1/i3f/v20/5788453/canvas/13265218",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1121.381103515625,655.2163696289062,1432.88720703125,465.88836669921875"
+        },
+        "dcterms:isPartOf": {
+            "id": "http://localhost:4000/SP-map/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c41df359-952d-4f9b-a558-f35634919b52.json",
+    "motivation": "commenting"
+}

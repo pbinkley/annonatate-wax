@@ -1,0 +1,40 @@
+---
+canvas: "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj9.json"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Dagger\n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2026-01-29T04:15:58.035Z",
+            "modified": "2026-01-29T04:15:59.549Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/obj9/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj9.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1324.744384765625,2235.24365234375 1324.744384765625,2235.24365234375 1324.744384765625,2235.24365234375 1324.744384765625,2235.24365234375\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1f3eb0ea-fe56-40b7-b749-bd3a658a4937.json",
+    "motivation": "commenting"
+}
